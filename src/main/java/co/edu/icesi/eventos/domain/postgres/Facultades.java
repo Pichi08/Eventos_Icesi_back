@@ -1,9 +1,9 @@
 package co.edu.icesi.eventos.domain.postgres;
 
 import jakarta.persistence.*;
-import jdk.jfr.DataAmount;
+import lombok.Data;
 
-@DataAmount
+@Data
 @Entity
 @Table(name = "Facultades")
 public class Facultades {

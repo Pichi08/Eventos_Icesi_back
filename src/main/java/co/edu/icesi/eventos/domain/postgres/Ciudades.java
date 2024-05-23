@@ -4,9 +4,9 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import jdk.jfr.DataAmount;
+import lombok.Data;
 
-@DataAmount
+@Data
 @Entity
 @Table(name = "Ciudades")
 public class Ciudades {
